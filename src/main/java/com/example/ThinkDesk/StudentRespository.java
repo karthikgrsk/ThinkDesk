@@ -1,0 +1,8 @@
+package com.example.ThinkDesk;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface StudentRespository extends JpaRepository<Student, Integer> {
+    
+    
+}
