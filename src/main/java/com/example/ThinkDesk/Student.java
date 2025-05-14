@@ -18,11 +18,7 @@ public class Student {
     @Column(name="Student_cgpa")
     private double cgpa;
 
-    public Student(String name,String branch,double cgpa){
-        this.name=name;
-        this.branch=branch;
-        this.cgpa=cgpa;
-
+    public Student() {
     }
     public int getRollNo() {
         return rollNo;
@@ -46,7 +42,7 @@ public class Student {
     public double getCgpa() {
         return cgpa;
     }
-    public void setCgpa(float cgpa) {
+    public void setCgpa(double cgpa) {
         this.cgpa = cgpa;
     }
     
